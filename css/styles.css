@@ -1,0 +1,55 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Lobster", cursive;
+}
+
+h2 {
+    color: #3046C5;
+}
+
+header h2 {
+    color: #CEC8FF;
+}
+
+.site-footer {
+    background-image: linear-gradient(#CEC8FF, white);
+    padding: 20px 0;
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 30px;
+    background-image: linear-gradient(to right, #231468, #092ae2, #bc27cf);
+    color: white;
+}
+
+.navbar {
+    background-color: #901CAD;
+}
+
+form input {
+    margin-bottom: 1em;
+}
+
+.btn-row,
+.login-form-row {
+    margin-top: 0.5em;
+}
+
+button[type="button"] {
+    margin-right: 0.4em;
+}
+
+a[data-bs-target="#loginModal"] {
+    padding-right: 2em;
+}
+
+.navbar-text {
+    margin-left: -35rem;
+    color: #fff;
+}
